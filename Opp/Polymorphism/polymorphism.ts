@@ -29,7 +29,7 @@ class CalulateRectangle  implements Shape{
 }
 
 
-function calculateTotalArea(shape:Shape): number{
+function calculatedTotalArea(shape:Shape): number{
     return shape.area();
 }
 
@@ -40,5 +40,5 @@ let Calulatecircle: CalulateCircle = new CalulateCircle(5);
 
 let Calulaterectangle:CalulateRectangle = new CalulateRectangle(4,6);
 
-console.log("Ara of Circle:",calculateTotalArea(Calulatecircle))
-console.log("Ara of reactangle:",calculateTotalArea(Calulaterectangle))
+console.log("Ara of Circle:",calculatedTotalArea(Calulatecircle))
+console.log("Ara of reactangle:",calculatedTotalArea(Calulaterectangle))
